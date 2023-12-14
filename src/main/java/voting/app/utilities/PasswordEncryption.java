@@ -24,6 +24,7 @@ public class PasswordEncryption {
 
 	public static String getSecurePassword(String password, byte[] salt) {
 
+		//git test
 		String generatedPassword = null;
 		try {
 			MessageDigest md = MessageDigest.getInstance("SHA-256");
